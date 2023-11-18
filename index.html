@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es">
+    <!-- lenguaje -->
+<head>
+    <meta charset="UTF-8">
+    <!-- define el conjunto de carateres utilizados -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!--Indica que esta metaetiqueta es equivalente a un encabezado HTTP y se utiliza para proporcionar instrucciones especiales al navegador-->
+    <!-- compatibilidad con un determinado navegador-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configura la escala para dispositivos moviles -->
+    <title>MI PRIMERA CHAMBA</title> <!--Titulo-->
+    <link rel="stylesheet" href="">
+    <style>
+        body{
+            font-family: arial, sans-serif;
+            margin: 0%;
+            padding: 0%;
+            background-color: rgb(246, 98, 6); /*Cambie el color de fondo a naranjado para que le de un toque al dbz*/
+            color:rgb(0, 0, 0)
+            }
+
+        header{
+            background-color:rgb(246, 98, 6); /* celeste para el encabezado*/
+            text-align: center;
+            padding: 20px;
+            }
+
+        h1{
+            color:black;
+            font-size: 3em;
+            text-align: center;
+            margin: 0;
+            }
+
+        nav{
+            background-color:#3498db;
+            padding: 10px;
+            }
+
+        nav ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+
+            }
+
+        nav ul li{
+            display: inline;
+            margin-right: 20px;
+            }   
+
+        nav ul li a {
+            color: black ;
+            text-decoration: none;
+            font-size: 1.3em;
+            text-align: center;
+            }
+
+        main{
+            padding: 20px;
+            }
+
+        section{
+            background-color:aqua; /* verde claro para las secciones*/
+            padding: 20px;
+            margin: 20px 0;
+            }
+        
+        section h2 {
+            color: black;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            }
+        
+        section p {
+            font-size: 1.8em;
+            line-height: 1.2;
+            color:black
+            }
+
+        section img{
+            max-width: 40%;
+            height: auto;
+            border-radius: 50px; /* agregue esquinas redondeadas a las imaganes*/
+            margin-top: 10px;
+            }
+
+        section ol,
+        section ul {
+            font-size: 1.6em;
+            color:black;
+            margin-top: 10px;
+            }
+
+        footer {
+            background-color: #3498db;
+            color:black;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            }
+
+        img{
+            max-width: 50%;
+            height: auto;
+            border-radius: 5%;
+            }
+    
+    
+    </style>
+    <script></script>
+</head>
+<!-- encabezado -->
+<body>
+    <!-- contenido principal de la pagina -->
+    
+    <header>
+        <!-- Encabezado de la pagina (logotipo, menu, etc.) -->
+        <h1>Dragon ball </h1>
+    </header>
+
+    <nav>
+        <!-- Menu de navegacion -->
+        <ul>
+            <li><a href="#saga1">saga sayayins></a></li>
+            <li><a href="#saga2">saga freezer></a></li>
+            <li><a href="#saga3">saga cell></a></li>
+            <li><a href="#saga4">saga buu></a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <!-- Contenido principal de la pagina -->
+        <!-- Otros elemento, como imagenes, listas, enlaces,etc. -->
+        <section id="saga1">
+            <h2>saga sayayins </h2>
+            <p> La historia comienza con la llegada de Raditz a la tierra , secuestra al niño de kakaroto etc etc etc 
+            </p>
+            <img src="img/MicrosoftTeams-image (2).png" alt="goku vs vegueta">
+            <p>Episodios notables:</p>
+            <ol>
+                <li>La llegada de Raditz</li>
+                <li>Goku busca asu hijo Gohan</li>
+                <li>La batalla en la tierra contra los Saiyanines</li>
+            </ol>
+        </section>
+        <section id="saga2">
+            <h2>saga frezzer </h2>
+            <p> La historia comienza con la llegada de freezer a namekusein  
+            </p>
+            <img src="img/dbz__frieza_saga_by_theretrodude-d5xuu6o.png" alt="goku vs frezzer">
+            <p>Episodios notables:</p>
+            <ol>
+                <li>La llegada de Frezzer a namekusein</li>
+                <li>Goku entrena para enfrentarse a frezzer</li>
+                <li>La batalla entre goku y frezzer</li>
+            </ol>
+        </section>
+        <section id="saga3">
+            <h2>saga cell </h2>
+            <p> La historia comienza con la llegada de cell en la maquina del tiempo en una epoca diferente 
+            </p>
+            <img src="img/928e7ac0b7538608bb14918233fc6b7b.jpg" alt="gohan vs cell">
+            <p>Episodios notables:</p>
+            <ol>
+                <li>La llegada de cell</li>
+                <li>Goku entrena a gohan para vencer a cell</li>
+                <li>La batalla entre gohan y cell</li>
+            </ol>
+        </section>
+        <section id="saga4">
+            <h2>saga Buu </h2>
+            <p> La historia comienza con la llegada babiri por revivir a mayimbu 
+            </p>
+            <img src="img/dbz-kai-buu-saga_jqk6.jpg" alt="goku vs buu">
+            <p>Episodios notables:</p>
+            <ol>
+                <li>La llegada de Mayimbu por babiri</li>
+                <li>Goku entra al torneo con sus compañeros</li>
+                <li>La batalla entre goku y buu</li>
+            </ol>
+        </section>
+
+
+
+    
+    </main>
+
+    <aside>
+        <!-- Contenido adicional o complementario (barra lateral, widgets, etc.) -->
+    </aside>
+
+    <footer>
+        &copy; 2023 dragon ball fan club
+        <!-- Pie de pagina -->
+    </footer>
+</body>
+<!-- Cuerpo -->
+</html>
+<!-- cierre -->
+<!--  -->
